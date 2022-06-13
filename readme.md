@@ -2,12 +2,10 @@
 Web browser search utility through command line
 
 # Usage 
-**help** - `py search.py -h`
-
-**basic search** - `py search.py apples`
-**multi-line search** - `py search.py "how to center a div in css" -g`
-
-**search with multiple search engines** `py search.py "humans need not apply" -g -y`
+- **help** - `py search.py -h`
+- **basic search** - `py search.py apples`
+- **multi-line search** - `py search.py "how to center a div in css" -g`
+- **search with multiple search engines** `py search.py "humans need not apply" -g -y`
 
 # Adding custom search engines
 
