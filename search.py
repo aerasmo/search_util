@@ -15,9 +15,7 @@ def get_args(search_engines):
         # parser.add_argument(f"-g", f"--google", help=f"Use google as search engine", action="store_true")
         parser.add_argument(f"-{search_engines[se]['shortArg']}", f"--{se}", help=f"Use {se} as search engine", action="store_true")
 
-    parser.add_argument("--postfix", type=int)
     args = parser.parse_args()
-    
     # print("args: ", args.__dict__)
     return args
         
