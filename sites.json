@@ -1,0 +1,12 @@
+{
+    "google": {
+        "shortArg": "g",
+        "searchUrl": "https://www.google.com/search?q=",
+        "seperator": "+"
+    },
+    "youtube": {
+        "shortArg": "y",
+        "searchUrl": "https://www.youtube.com/results?search_query=,",
+        "seperator": "+"
+    }
+}
